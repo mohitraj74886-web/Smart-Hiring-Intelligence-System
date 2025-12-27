@@ -4,7 +4,7 @@ import pandas as pd
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="iamvegeta@2110",
+    password="yourpassword",
     database="smart_hiring"
 )
 query = "SELECT * FROM employees"
